@@ -22,6 +22,9 @@ const ExperienceCard = ({ experience }) => (
     }
     >
     <div>
+    {experience.education == true &&
+        <h4 className="text-secondary text-[15px] font-light">Education</h4>
+      }
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
       <p className="text-secondary text-[16px] font-semibold" style={{margin: 0}}>{experience.company_name}</p>
     </div>

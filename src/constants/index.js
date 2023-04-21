@@ -120,6 +120,20 @@ import {
       ],
     },
     {
+      title: "Computer Science Professor",
+      company_name: "I.S. Don Lorenzo Milani",
+      icon: dlm,
+      iconBg: "#fff",
+      date: "Mar 2023 - Jun 2023",
+      points: [
+        "Taught 6 classes computer science, including subjects as C, Java, Unity, HTML, etc",
+        "Managed relationship with parents",
+        "Participated in meetings with class teachers to evaluate the development of the class",
+        "Evaluated final exams",
+      ],
+    },
+    {
+      education: true,
       title: "Computer Engineering",
       company_name: "Polytechnic University of Milan",
       icon: polimi,
@@ -133,6 +147,7 @@ import {
         ],
     },
     {
+      education: true,
       title: "Scientific High School",
       company_name: "I.S. Don Lorenzo Milani",
       icon: dlm,
