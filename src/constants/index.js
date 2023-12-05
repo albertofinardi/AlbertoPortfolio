@@ -107,7 +107,7 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer",
+      title: "Fullstack Software Engineer",
       company_name: "Oddity Tech",
       icon: oddity,
       iconBg: "#f2f3f5",
@@ -164,29 +164,28 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "Feedback 1",
-      name: "Name",
-      designation: "Position",
-      company: "Company",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      testimonial: "Alberto’s defining quality is that he is always willing to do whatever is needed for the team and for the company",
+      name: "Dassi Eliach",
+      designation: "Mobile Team Manager",
+      company: "Oddity", 
+      image: "https://media.licdn.com/dms/image/C4D03AQEpR9ybF-wDqA/profile-displayphoto-shrink_400_400/0/1636396235671?e=1707350400&v=beta&t=vrFoh5uikBTZTZbUgjo10WnBGSQjuUwgb6ItzBFn3hM",
     },
     {
       testimonial:
-        "Feedback 2",
-      name: "Name",
-      designation: "Position",
-      company: "Company",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "He is among the few students who selected a MSc course as an elective course in their BSc study plans and I had the opportunity to appreciate his passion for computer science.",
+      name: "Francesco Amigoni",
+      designation: "Full Professor",
+      company: "Politecnico di Milano",
+      image: "https://media.licdn.com/dms/image/D4D03AQHcK5-5Uaa8HA/profile-displayphoto-shrink_400_400/0/1685527449949?e=1707350400&v=beta&t=0Xf0CDiOceEZGQ6C9TeazKjcXmgWZvL6tR0AqZxHcY4",
     },
     {
       testimonial:
-        "Feedback 3",
-      name: "Name",
-      designation: "Position",
-      company: "Company",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+        "",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
+    }
   ];
   
   const projects = [

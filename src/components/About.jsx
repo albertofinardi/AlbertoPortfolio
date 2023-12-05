@@ -36,7 +36,7 @@ const About = () => {
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget dui vel justo placerat tincidunt ac vitae libero. Mauris rutrum non turpis varius varius. Maecenas ut nisl et augue mollis viverra. Maecenas mattis dui nec elit scelerisque iaculis. Integer id sodales justo. Vestibulum at accumsan neque. Nunc sollicitudin finibus feugiat.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
